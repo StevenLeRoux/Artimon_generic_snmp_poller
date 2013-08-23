@@ -9,6 +9,9 @@ Modules are a very small python file which describes the scope of a set of metri
 
 Given this example : 
 ```
+scope = ['device1','device2']
+artimonVar = 'lb.ltm.node'
+labels = '{class=lb,name=@INDEX@,@HOST@}'
 bulk = {
   'ltmNodeAddrStatTotRequests': {
     'regex':'^F5-BIGIP-LOCAL-MIB::ltmNodeAddrStatTotRequests."([^\s]+)"\s=\sCounter64:\s([0-9]+)',
