@@ -1,7 +1,7 @@
 Artimon_generic_snmp_poller
 ===========================
 
-This is a generic metric poller using SNMP which produces variables to be used with the Artimon time series framework.
+This is a generic metric poller using SNMP which produces variables to be used with the Artimon time series framework. [(Read more on Artimon)](http://fr.slideshare.net/Mathias-Herberts/20111109-artimonapache-flumemeetupfinal2)
 
 ## Dynamic Modules
 
